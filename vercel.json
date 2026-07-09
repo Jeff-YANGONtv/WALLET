@@ -2,5 +2,6 @@
   "buildCommand": "npm install",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "static"
+  "framework": "node",
+  "outputDirectory": "public"
 }
