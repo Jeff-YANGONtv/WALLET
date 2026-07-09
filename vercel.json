@@ -1,6 +1,6 @@
 {
-  "buildCommand": "mkdir -p .vercel_output && cp -r public/* .vercel_output/ && mkdir -p .vercel_output/api && cp api/index.js .vercel_output/api/",
-  "outputDirectory": ".vercel_output",
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "dist",
   "routes": [
     {
       "src": "/api/(.*)",
