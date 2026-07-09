@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm install",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "static",
+  "public": "public",
+  "env": [
+    {
+      "key": "SUPABASE_URL",
+      "description": "Supabase project URL"
+    },
+    {
+      "key": "SUPABASE_SERVICE_ROLE_KEY",
+      "description": "Supabase service role key (secret)"
+    },
+    {
+      "key": "ADMIN_PASSWORD",
+      "description": "Admin dashboard password (default: 036324)"
+    }
+  ]
+}
